@@ -19,6 +19,13 @@
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 
+	<!-- animate.css -->
+	<link rel="stylesheet" href="assets/animate/animate.css" />
+	<link rel="stylesheet" href="assets/animate/set.css" />
+
+	<!-- gallery -->
+	<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -48,9 +55,10 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Інші <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="https://natashagallery.herokuapp.com/" target="_blank">Фотогалерея</a></li>
+            <li><a href="#service">Фотогалерея</a></li>
             <li><a href="#">Відео матеріали</a></li>
             <li><a href="#">Блог</a></li>
+			  <li><a href="#">Форум</a></li>
           </ul>
         </li>
       </ul>
@@ -139,6 +147,76 @@
 		</div>
 	</section>
 	<!-- /Section: about -->
+
+	<!-- Section: services -->
+	<section id="service" class="home-section text-center bg-gray">
+
+		<div class="heading-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<div class="wow bounceInDown" data-wow-delay="0.4s">
+							<div class="section-heading">
+								<h2>Фотогалерея</h2>
+								<i class="fa fa-2x fa-angle-down"></i>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<!-- works -->
+			<div id="works"  class=" clearfix grid">
+				<figure class="effect-oscar  wowload fadeIn">
+					<img src="img/portfolio/1.jpg" alt="img01"/>
+					<figcaption>
+						<h2>Призери золотого колоска 2013</h2>
+						<p><a href="img/portfolio/1.jpg" title="Призери золотого колоска 2013" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+				<figure class="effect-oscar  wowload fadeInUp">
+					<img src="img/portfolio/2.jpg" alt="img01"/>
+					<figcaption>
+						<h2>Свято Букварика</h2>
+						<p><a href="img/portfolio/2.jpg" title="Свято Букварика" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+				<figure class="effect-oscar  wowload fadeInUp">
+					<img src="img/portfolio/3.jpg" alt="img01"/>
+					<figcaption>
+						<h2>У вільний час</h2>
+						<p><a href="img/portfolio/3.jpg" title="У вільний час" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+				<figure class="effect-oscar  wowload fadeInUp">
+					<img src="img/portfolio/7.jpg" alt="img01"/>
+					<figcaption>
+						<h2>Наші уроки</h2>
+						<p><a href="img/portfolio/7.jpg" title="Наші уроки" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+				<figure class="effect-oscar  wowload fadeInUp">
+					<img src="img/portfolio/5.jpg" alt="img01"/>
+					<figcaption>
+						<h2>Конкурс закладок</h2>
+						<p><a href="img/portfolio/5.jpg" title="Конкурс закладок" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+
+				<figure class="effect-oscar  wowload fadeInUp">
+					<img src="img/portfolio/6.jpg" alt="img01"/>
+					<figcaption>
+						<h2>Наш клас</h2>
+						<p><a href="img/portfolio/6.jpg" title="Наш клас" data-gallery>Дивитись більше</a></p>
+					</figcaption>
+				</figure>
+			</div>
+			<!-- works -->
+	</section>
+	<!-- /Section: services -->
 
 	<!-- Section: contact -->
     <section id="contact" class="home-section text-center">
@@ -258,6 +336,22 @@
 		</div>
 	</footer>
 
+	<!-- # Footer Ends -->
+	<a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+
+
+	<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title">Title</h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+	</div>
+
     <!-- Core JavaScript Files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -266,6 +360,20 @@
 	<script src="js/wow.min.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
+
+	<!-- wow script -->
+	<script src="assets/wow/wow.min.js"></script>
+
+
+	<!-- jquery mobile -->
+	<script src="assets/mobile/touchSwipe.min.js"></script>
+	<script src="assets/respond/respond.js"></script>
+
+	<!-- gallery -->
+	<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+	<!-- custom script -->
+	<script src="assets/script.js"></script>
 
 </body>
 
